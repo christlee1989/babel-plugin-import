@@ -1,10 +1,10 @@
 {
-  "name": "babel-plugin-import",
-  "version": "1.7.0",
+  "name": "babel-plugin-import-component",
+  "version": "1.0.0",
   "description": "Component modular import plugin for babel.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ant-design/babel-plugin-import"
+    "url": "https://github.com/christlee1989/babel-plugin-import-component"
   },
   "main": "lib/index.js",
   "scripts": {
@@ -19,9 +19,9 @@
   ],
   "keywords": [
     "babel-plugin",
-    "antd"
+    "pandora"
   ],
-  "author": "chencheng <sorrycc@gmail.com>",
+  "author": "liyunfeng <liyunfeng1989@126.com>",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.0.0-beta.34",
@@ -43,10 +43,13 @@
   },
   "babel": {
     "presets": [
-      ["umi", {
-        "commonjs": true,
-        "disableTransform": true
-      }]
+      [
+        "umi",
+        {
+          "commonjs": true,
+          "disableTransform": true
+        }
+      ]
     ]
   },
   "files": [
